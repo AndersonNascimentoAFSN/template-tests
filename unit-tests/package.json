@@ -1,0 +1,25 @@
+{
+  "name": "template-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "Anderson Nascimento",
+  "license": "ISC",
+  "engines": {
+    "node": "v18.17.1"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.3.10",
+    "@swc/core": "^1.4.11",
+    "@vitest/coverage-istanbul": "^1.4.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "typescript": "^5.4.3"
+  }
+}
